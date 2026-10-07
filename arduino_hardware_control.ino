@@ -23,11 +23,11 @@ int currentServoAngle = 0;
 // =========================================================
 
 // 小于该距离，认为物体已经放回
-const float OBJECT_PLACED_DISTANCE_CM = 12.0;
+const float OBJECT_PLACED_DISTANCE_CM = 2.5;
 
 // 大于该距离，认为前方没有物体
 // 使用两个不同阈值，防止距离临界值抖动
-const float OBJECT_REMOVED_DISTANCE_CM = 15.0;
+const float OBJECT_REMOVED_DISTANCE_CM = 3.0;
 
 // 物体必须持续存在多久才确认
 const unsigned long OBJECT_CONFIRM_TIME_MS = 600;
